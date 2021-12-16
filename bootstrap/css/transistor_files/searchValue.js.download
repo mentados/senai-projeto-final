@@ -1,0 +1,1 @@
+var searchInput=jQuery("#search");var url=this.getUrlBase('search/ajax/getSearchPlaceHolder');jQuery.ajax({url:url,type:'POST',dataType:'json'}).done(function(response){searchInput.attr("placeholder",response.content);});
